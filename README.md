@@ -1,75 +1,75 @@
-# Nuxt Minimal Starter
+# Nuxt 3 Project Task
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is built with Nuxt 3.
 
-## Setup
+## Prerequisites
 
-Make sure to install dependencies:
+Before you begin, ensure you have the following installed:
 
-```bash
-# npm
-npm install
+* **Node.js:** (Recommended version: v18 or later) [Download Node.js](https://nodejs.org/)
+* **npm** or **yarn** or **pnpm:** (npm is included with Node.js)
 
-# pnpm
-pnpm install
+## Getting Started
 
-# yarn
-yarn install
+Follow these steps to clone and run the project:
 
-# bun
-bun install
-```
+1.  **Clone the Repository:**
 
-## Development Server
+    ```bash
+    git clone https://github.com/rajuwahyudii/task.git
+    cd task
+    ```
 
-Start the development server on `http://localhost:3000`:
+2.  **Install Dependencies:**
 
-```bash
-# npm
-npm run dev
+    Using npm:
 
-# pnpm
-pnpm dev
+    ```bash
+    npm install
+    ```
 
-# yarn
-yarn dev
+    Using yarn:
 
-# bun
-bun run dev
-```
+    ```bash
+    yarn install
+    ```
 
-## Production
+    Using pnpm:
 
-Build the application for production:
+    ```bash
+    pnpm install
+    ```
 
-```bash
-# npm
-npm run build
+3.  **Run the Development Server:**
 
-# pnpm
-pnpm build
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    ```
 
-# yarn
-yarn build
+    This will start the development server. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-# bun
-bun run build
-```
+4.  **Build for Production (Optional):**
 
-Locally preview production build:
+    If you want to build the project for production, run:
 
-```bash
-# npm
-npm run preview
+    ```bash
+    npm run build
+    # or
+    yarn build
+    # or
+    pnpm build
+    ```
 
-# pnpm
-pnpm preview
+    Then, start the production server:
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    ```bash
+    npm run preview
+    # or
+    yarn preview
+    # or
+    pnpm preview
+    ```
