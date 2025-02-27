@@ -10,7 +10,6 @@
       <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2">
         {{ data.genre }}
       </span>
-      <p>{{ game }}</p>
     </div>
     <p class="text-gray-600 text-sm ">Publisher : {{ data.publisher }}</p>
     <p class="text-gray-600 text-sm ">Platform : {{ data.platform }}</p>
